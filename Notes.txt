@@ -2,6 +2,7 @@
 [MODAL]----->>>
 -We set modal visible: hidden and we use opacity to have a transition.
 -We give the modal-background a z-index of 2 and the modal z-index: 5 so its behind.
+-We make the div seperately so we can click on it and then the modal will clise you can add a click event or an anchor tag to it
 -Putting the modal-background wrapped inside an anchor to click outside the modal and it 
 will go back to home page.
 
