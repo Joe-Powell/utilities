@@ -1,0 +1,9 @@
+
+[MODAL]----->>>
+-We set modal visible: hidden and we use opacity to have a transition look nice.
+-We give the modal-background a z-index of 2 and the modal z-index: 5 so its behind.
+-Putting the modal-background wrapped inside an anchor to clic outside the modal and it 
+will go back to home page.
+
+to center an absolute div, we put the margin auto, but must have right and left both set to zero.
+<<<-----

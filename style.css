@@ -1,0 +1,175 @@
+/* Technologies
+ ----------------------------*/
+ 
+ .technologies {
+    display: inline-block;
+    width: fit-content;
+    padding: 0px;
+    border-radius: 10px;
+}
+.technologies .fab{
+    margin:0 2.5px;
+    font-size: 45px;
+}
+.technologies .fa-html5{
+  color: orange;
+  }
+.technologies .fa-css3-alt{
+   color: blue;
+  }
+.technologies .fa-js-square{
+   color: rgb(230, 230, 29);
+  }
+.technologies .fa-react{
+   color: rgb(179, 179, 245);
+  }
+.technologies .fa-node{
+   color: #0c0c0c;
+  }
+.technologies .fa-git-square{
+   color: red;
+  }
+.technologies .fa-php{
+   color: rgb(24, 24, 241);
+  }
+
+  /* Social Medias font awesome
+ ----------------------------*/
+
+ .socialMedia .fab{
+    margin:0 2.5px;
+    font-size: 45px;
+ }
+ .fa-facebook-square {
+     color:rgb(78, 78, 250);
+ }
+ .fa-youtube {
+     color: red;
+ }
+ .fa-linkedin {
+     color: blue;
+ }
+ .fa-twitter {
+     color: rgb(120, 120, 246);
+ }
+ .fa-instagram {
+    color:rgb(161, 226, 39);
+ }
+
+
+
+
+
+
+
+
+
+/* Buttons Anchors Inputs
+ ---------------------*/
+.btn {
+  display: block;
+  padding:10px 20px;
+  margin: 10px 0 10px;
+  cursor: pointer;
+  background-color: rgb(132, 130, 245);
+  color:#fff;
+  border:none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+    transform:scale(.98)
+  }
+
+.btn-outline {
+    padding:10px 20px;
+    margin: 10px 0 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+/* Anchors */
+.anchor1 {
+  width: fit-content;
+  text-decoration: none;
+  color:white;
+  display: block;
+  padding:10px 20px;
+  margin: 10px 0 10px;
+  cursor: pointer;
+  border:none;
+  border-radius: 20px;
+  background-color: orange;
+}
+
+
+
+/* SearchBar with fontAwesome
+--------------------------- */
+.searchDiv {
+    width: fit-content;
+    border:1px solid #334;
+    border-radius: 4px;
+    padding:5px;
+}
+.searchDiv input {
+    border:none;
+    outline: none;
+    padding: 0px ;
+    font-size: 18px;
+    cursor: pointer;
+}
+.searchDiv .fa-search {
+    color: blue;
+}
+
+
+
+/* Modal */
+
+.modal-backGround {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .7s, opacity .7s;
+
+  position: absolute;
+  z-index: 2;
+  top:0;
+  left:0;
+  
+}
+.modal {
+  background-color: #fff;
+  width: 30%;
+  height: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  font-family: sans-serif;
+  visibility: hidden;
+  opacity: 0;
+
+  position: absolute;
+  z-index: 5;
+  left:0;
+  right:0;
+
+}
+.bg-active {
+  visibility: visible;
+  opacity: 1;
+}
+.modal-close {
+  position: absolute;
+  top:10px;
+  right:10px;
+  cursor: pointer;
+
+}
