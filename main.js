@@ -16,14 +16,14 @@ modalClose.addEventListener('click', function () {
     modal.classList.remove('bg-active')
 })
 
-// Modal2
+// Modal2 and slide in
 const modal2Button = document.querySelector('.modal2-btn')
 const modal2 = document.querySelector('.modal2')
 const modalBackGround2 = document.querySelector('.modal-backGround2')
 
 modal2Button.addEventListener('click', () => {
     modal2.classList.add('slide-left')
-    // modalBackGround2.classList.add('modal2BackgroundActive')
+    modalBackGround2.classList.add('modal2BackgroundActive')
 
 })
 
@@ -31,3 +31,7 @@ modalBackGround2.addEventListener('click', () => {
     modal2.classList.remove('slide-left')
     modalBackGround2.classList.remove('modal2BackgroundActive')
 })
+
+
+
+
