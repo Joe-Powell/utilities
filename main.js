@@ -35,3 +35,18 @@ modalBackGround2.addEventListener('click', () => {
 
 
 
+// Hover Over Card
+
+const cardParent = document.querySelector('.cardParent')
+const hoverOver = document.querySelector('.hoverOver')
+const hoverOverActivate = document.querySelector('.hoverOverActivate')
+
+cardParent.addEventListener('mouseover', () => {
+    cardParent.classList.add('scaleActivate')
+    hoverOver.classList.add('hoverOverActivate')
+})
+
+cardParent.addEventListener('mouseout', () => {
+    cardParent.classList.remove('scaleActivate')
+    hoverOver.classList.remove('hoverOverActivate')
+})
