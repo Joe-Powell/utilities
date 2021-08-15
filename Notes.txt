@@ -11,3 +11,6 @@ will go back to home page.
 -had to make the body overflow:hidden because it was shaky at the end of the transition
 
 <<<-----
+
+css tricks
+ word-break: break-word;  /* display the overflow on a new line*/
