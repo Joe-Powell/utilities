@@ -12,5 +12,20 @@ will go back to home page.
 
 <<<-----
 
-css tricks
+<<<<< CSS tricks and tips >>>>>>
  word-break: break-word;  /* display the overflow on a new line*/
+
+
+
+ <<<<<<<<<<<< javaScript >>>>>>>>>>>>>>>
+    list = [1, 2, 3, 4, 5, 6];
+    let mapped = list.map((item) => { item + 1 }) //undefined
+    let mapped = list.map((item) => item + 1 ) //234567  wiith no {} it will return automatically.
+    let mapped = list.map((item) => { return item + 1 }) // 234567 works because with brackets there must be return keyword.
+
+
+    forEach vs .map()
+    Anytime we wish to perform an action on every item in an array forEach is a great iterator to reach for. 
+    The convenience of a callback which can take both a value and an index, along with optional pass-along arguments only adds to its utility.
+
+    

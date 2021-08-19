@@ -50,3 +50,21 @@ cardParent.addEventListener('mouseout', () => {
     cardParent.classList.remove('scaleActivate')
     hoverOver.classList.remove('hoverOverActivate')
 })
+
+
+
+//<<<<<<<<<< return undefined >>>>>>>>>>>>>>//
+console.log('array');
+console.log();
+let log = console.log;
+list = [1, 2, 3, 4, 5, 6];
+
+let mapped = list.map((item) => { return item + 1 })
+
+log(mapped)
+
+let list_two = [1, 2, 3, 4, 5, 6];
+let itemsForEached = [];
+list_two.forEach(num => itemsForEached.push(num * 0))
+log(itemsForEached)//  [0, 0, 0, 0, 0, 0]
+
