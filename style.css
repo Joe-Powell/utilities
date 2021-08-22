@@ -309,3 +309,9 @@ transition: 1s;
 .bottom li {
   list-style: none;
 }
+
+/* media queries */
+
+@media(max-width: 576px) {
+
+}
