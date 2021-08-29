@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.wrapper .sideBar {
+  position: fixed;
+  width: 200px;
+  height: 100vh;
+  padding: 100px 20px 0;
+  background-color: bisque;
+  list-style: none;
+}
+
+.wrapper .sideBar h2 {
+  text-align: center;
+}
+
+.wrapper .sideBar ul li {
+  padding: 15px;
+  list-style: none;
+}
+
+.main {
+  width: 600px;
+  margin: 50px 0 0 240px;
+}
+
+.main2 {
+  width: 500px;
+  height: 600px;
+  margin: 90px 0 0 24px;
+  overflow: scroll;
+}
+
+/* make the scrollbar not show but still work. */
+::-webkit-scrollbar {
+  width: 0px;
+}
