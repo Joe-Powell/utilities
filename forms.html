@@ -1,12 +1,14 @@
 
     <form action='admin.php' method='post' enctype='multipart/form-data'>
-        <input type='text' name='title' placeholder="Title" autocomplete="off" onfocus="this.placeholder = ''" onfocus="this.placeholder = 'Title'">
-        <input type='text' name='readmore' placeholder="Readmore" autocomplete="off" onfocus="this.placeholder = ''" onfocus="this.placeholder = 'Readmore'">
-        <input type='text' name='category' placeholder="category" autocomplete="off" onfocus="this.placeholder = ''" onfocus="this.placeholder = 'category'">
-        <input type='text' name='search_words' placeholder="Search Words" autocomplete="off" onfocus="this.placeholder = ''" onfocus="this.placeholder = 'Search Words'">
-        
-        <input type='file' name='image'>
-        <button type='button' class="btn">Add Image <i class="fas fa-plus-circle"></i></button>
+        <input type='text' name='title' placeholder="Title" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Title'">
+        <input type='text' name='readmore' placeholder="Readmore" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Readmore'">
+        <input type='text' name='category' placeholder="category" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'category'">
+        <input type='text' name='search_words' placeholder="Search Words" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Words'">
+
+        <div class="imageDiv">
+            <input type='file' name='image'>
+            <button type='button' class="btn">Add Image <i class="fas fa-plus-circle"></i></button>
+        </div>
 
         <input type='submit' name='submitBtn' class='submitBtn'>
     </form>
