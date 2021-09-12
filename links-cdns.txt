@@ -1,0 +1,14 @@
+
+//fontawesome cdn:
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+node.js  Download:
+		https://nodejs.org/en/download/	
+
+
+4 youtube:
+		js,javascript,web development,software engineer,developer,programming,computer,react.js,
+		react,shared hosting,host react.js,host react,discount,hosting discount,node.js,node,axios
+🔵Host with HostGator Discount:  https://partners.hostgator.com/n1R7mM

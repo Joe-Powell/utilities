@@ -33,3 +33,7 @@ will go back to home page.
 So you make a container with 2 child divs,
 set the container to display:flex,position : relative
 set the first child to position:fixed,
+
+
+
+li*5>a gives 5 li's with a inside them
