@@ -1,17 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+
+    
+    <section class='contactForm'>
+        <form action='#' method='post'>
+
+            <input type='text' name='name' placeholder='Name'  onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Name'"   autocomplete="off" ></input>
+            <input type='text' name='email' placeholder='Email'  onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Email'"   autocomplete="off"></input>
+
+            <textarea type='text' name='message' placeholder='Message'  onfocus="this.placeholder = ''"  onblur="this.placeholder = 'Message'"   autocomplete="off"></textarea>
+
+            <input type='submit'></input>
+            
+        </form>
+    </section>
 
 
 
 
+
+<!-- when working with files  enctype='multipart/form-data' -->
     <form action='admin.php' method='post' enctype='multipart/form-data'>
-        <input type='text' name='title' placeholder="Title" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Title'">
-        <input type='text' name='readmore' placeholder="Readmore" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Readmore'">
-        <input type='text' name='category' placeholder="category" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'category'">
-        <input type='text' name='search_words' placeholder="Search Words" autocomplete="off" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Words'">
-
-        <div class="uploadFileDiv">
-            <input type='file' name='image'>
-            <button type='button' class="btn">Add Image <i class="fas fa-plus-circle"></i></button>
-        </div>
-
-        <input type='submit' name='submitBtn' class='submitBtn'>
+       
     </form>
+    
+</body>
+</html>
+
+
+
+    

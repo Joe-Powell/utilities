@@ -1,0 +1,48 @@
+/* contactForm */
+
+.contactForm form {
+  width: 90%;
+  max-width: 800px;
+  margin: 100px auto 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.contactForm input[type='text'] {
+  height: 40px;
+  font-size: 18px;
+  background-color: #333;
+  color: #bbb;
+  padding: 5px;
+  border: none;
+}
+
+.contactForm textarea {
+  height: 8em;
+  padding: 5px;
+  color: #bbb;
+  font-size: 18px;
+  resize: none;
+}
+
+.contactForm :nth-child(3) {
+  background-color: #333;
+  grid-column: span 2;
+}
+.contactForm :nth-child(4) {
+  background-color: #333;
+  grid-column: span 2;
+  color: #bbb;
+  background-color: #504a45;
+  border: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 550px) {
+  .contactForm form :nth-child(1),
+  :nth-child(2) {
+    grid-column: span 2;
+  }
+}
