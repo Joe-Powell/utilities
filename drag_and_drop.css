@@ -1,0 +1,12 @@
+.drop_zone {
+  border: 1px black dotted;
+  width: 200px;
+  padding: 10px;
+}
+
+.plusSign {
+  width: fit-content;
+  margin: auto;
+  font-weight: bolder;
+  font-size: xx-large;
+}
